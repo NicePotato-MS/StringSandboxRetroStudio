@@ -6,7 +6,7 @@
     StringSandbox allows non-filtered string manipulation in a sandboxed enviornment
     and a filtered string to be returned after the manipulation is done
 
-    A sandboxed string cannot be applied to any property due to it being a userdata type
+    A sandboxed string cannot have its raw string be applied to any property due to it being a userdata type
     Since it is a userdata type, it will not conflict with other functions that check type
 
     Originally made for RetroStudio
