@@ -282,6 +282,8 @@ function StringSandbox.sandbox(input , plr : Player) -- Takes a string and retur
         end
     end
 
+    mt.__type = "stringsandbox"
+
 	return sandboxed
 end
 
